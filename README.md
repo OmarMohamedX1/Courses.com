@@ -59,7 +59,7 @@
 		<br>
 		<hr>
 		<br>
-		<p>information about the creator of the project</p>
+		<p>information about the creator of the project!</p>
 		<br>
 		<hr>
 		<br>
