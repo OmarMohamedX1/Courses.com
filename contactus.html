@@ -16,7 +16,7 @@
 </head>
 <body>
     <h1>Contact Us</h1><br>
-        <form>
+        <form action="https://formspree.io/f/mqkjklvp" method="post">
             <label>First Name</label>
             <input type="text" name="FirstName" required><br><br><br>
             <label>Last Name</label>
@@ -25,6 +25,13 @@
             <input type="Password" name="Password" required><br><br><br>
             <label>Email</label>
             <input type="email" name="Email" required><br><br><br>
+            <label>gender</label>
+            <select name="gender">
+                <option>male</option>
+                <option>female</option>
+                <option>can't tell</option>
+            </select><br><br><br>
+            <textarea name="What can we help you with?" placeholder="What can we help you with?" rows="8" cols="40"></textarea><br><br>
             <input type="submit" value="Submit"><br><br>
         </form>
 </body>
