@@ -1,6 +1,6 @@
 <html>
 	<head>
-		<title>Course 1</title>
+		<title>Course 2</title>
 		<style>
 			body{
 				text-align: center;
@@ -26,119 +26,81 @@
 	</head>
 	<body>
 		<br>
-        <br><img src=""
-		<h1>Course 1 - HTML Basics</h1>
+        <br>
+		<h1>Course 2 - Links & Images</h1>
 		<br>
 		<br>
-		<h3>Course was on 8/3/2022</h3>
+		<h3>Course was on 8/7/2022</h3>
 		<hr>
 		<ol>
-			<li>< img src="" alt="" ttitle="" width="" height="" ></li>
+			<li>&lt;img src="" alt="" title="" width="" height=""&gt;</li>
 		</ol>
 		<br>
 		<ul>
-		<li><h4>What is < html > ?</h4></li>
+		<li><h4>What is	&lt;img&gt; ?</h4></li>
 		</ul>
-		<p>The < html > HTML element represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.</p>
+		<p>The &lt;img&gt; HTML element embeds an image into the document.</p>
+		<br>
+		<ul>
+			<li><h4>What is src="" ?</h4></li>
+		</ul>
+		<p>The image URL. This attribute is mandatory for the <img> element. On browsers supporting srcset, src is treated like a candidate image with a pixel density descriptor 1x unless an image with this pixel density descriptor is already defined in srcset, or unless srcset contains 'w' descriptors.</p>
+		<br>
+		<ul>
+			<li><h4>What is alt="" ?</h4></li>
+		</ul>
+		<p>This attribute defines an alternative text description of the image. <br><br>
+
+			Note: Browsers do not always display the image referenced by the element. This is the case for non-graphical browsers (including those used by people with visual impairments), if the user chooses not to display images, or if the browser cannot display the image because it is invalid or an unsupported type. In these cases, the browser may replace the image with the text defined in this element's alt attribute. You should, for these reasons and others, provide a useful value for alt whenever possible. <br><br>
+			
+			Note: Omitting this attribute altogether indicates that the image is a key part of the content, and no textual equivalent is available. Setting this attribute to an empty string (alt="") indicates that this image is not a key part of the content (decorative), and that non-visual browsers may omit it from rendering.</p>
+		<br>
+		<ul>
+			<li>What is title="" ?</li>
+		</ul>
+		<p>The title global attribute contains text representing advisory information related to the element it belongs to.</p>
+		<br>
+		<ul>
+			<li>What is width="" ?</li>
+		</ul>
+		<p>The intrinsic width of the image in pixels.</p>
+		<br>
+		<ul>
+			<li>What is height="" ?</li>
+		</ul>
+		<p>The intrinsic height of the image in pixels.</p>
 		<hr>
 		<ol start="2">
-			<li>< head ></li>
+			<li>&lt;a href="" target="_blank"&gt;</a></li>
 		</ol>
 		<br>
 		<ul>
-		<li><h4>What is < head > ?</h4></li>
+		<li><h4>What is &lt;a&gt; ?</h4></li>
 		</ul>
-		<p>The < head > HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.</p>
-		<hr>
-		<ol start="3">
-			<li>< body ></li>
-		</ol>
+		<p>The <a> HTML element (or anchor element), with its href attribute, creates a hyperlink to web pages, files, email addresses, locations in the same page, or anything else a URL can address. <br><br>
+
+			Content within each &lt;a&gt; should indicate the link's destination. If the href attribute is present, pressing the enter key while focused on the &lt;a&gt; element will activate it.</p>
 		<br>
 		<ul>
-		<li><h4>What is < body > ?</h4></li>
+			<li><h4>What is href="" ?</h4></li>
 		</ul>
-		<p>The < body > HTML element represents the content of an HTML document. There can be only one < body > element in a document.</p>
-		<hr>
-		<ol start="4">
-			<li>< title ></li>
-		</ol>
+		<p>Contains a URL or a URL fragment that the hyperlink points to.</p>
 		<br>
 		<ul>
-		<li><h4>What is < title > ?</h4></li>
+			<li><h4>target="_blank" ?</h4></li>
 		</ul>
-		<p>The < title > HTML element defines the document's title that is shown in a browser's title bar or a page's tab. It only contains text; tags within the element are ignored.</p>
-		<hr>
-		<ol start="5">
-			<li>< p ></li>
-		</ol>
-		<br>
-		<ul>
-		<li><h4>What is < p > ?</h4></li>
-		</ul>
-		<p>The < p > HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.</p>
-		<hr>
-		<ol start="6">
-			<li>< br ></li>
-		</ol>
-		<br>
-		<ul>
-		<li><h4>What is < br > ?</h4></li>
-		</ul>
-		<p>The < br > HTML element produces a line break in text (carriage-return). It is useful for writing a poem or an address, where the division of lines is significant.</p>
-		<hr>
-		<ol start="7">
-			<li>< h1 >, < h2 >, < h3 >, < h4 >, < h5 >, < h6 ></li>
-		</ol>
-		<br>
-		<ul>
-		<li><h4>What is < h1 >, < h2 >, < h3 >, < h4 >, < h5 >, < h6 > ?</h4></li>
-		</ul>
-		<p>The < h1 > to < h6 > HTML elements represent six levels of section headings. < h1 > is the highest section level and < h6 > is the lowest.</p>
-		<hr>
-		<ol start="8">
-			<li>< hr ></li>
-		</ol>
-		<br>
-		<ul>
-		<li><h4>What is < hr > ?</h4></li>
-		</ul>
-		<p>The < hr > HTML element represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.</p>
-		<hr>
-		<ol start="9">
-			<li>< style ></li>
-		</ol>
-		<br>
-		<ul>
-		<li><h4>What is < style > ?</h4></li>
-		</ul>
-		<p>The < style > HTML element contains style information for a document, or part of a document. It contains CSS, which is applied to the contents of the document containing the < style > element.</p>
-		<hr>
-		<ol start="10">
-			<li> body { } </li>
-		</ol>
-		<br>
-		<ul>
-		<li><h4>What is body { } ?</h4></li>
-		</ul>
-		<p>Specificity is the algorithm used by browsers to determine the CSS declaration that is the most relevant to an element, which in turn, determines the property value to apply to the element. The specificity algorithm calculates the weight of a CSS selector to determine which rule from competing CSS declarations gets applied to an element.</p>
-		<br>
-		<ul>
-		<li><h4>Inside the brackets - text align</h4></li>
-		</ul>
-		<p>The text-align CSS property sets the horizontal alignment of the inline-level content inside a block element or table-cell box. This means it works like vertical-align but in the horizontal direction.</p>
-		<br>
-		<ul>
-		<li><h4>Inside the brackets - background-color</h4></li>
-		</ul>
-		<p>The background-color CSS property sets the background color of an element.</p>
-		<br>
-		<ul>
-		<li><h4>Inside the brackets - color</h4></li>
-		</ul>
-		<p>The color CSS property sets the foreground color value of an element's text and text decorations, and sets the currentcolor value. currentcolor may be used as an indirect value on other properties and is the default for other color properties, such as border-color.</p>
+		<p>Specifies where to display the linked URL. It is a name of, or keyword for, a browsing context: a tab, window, or &lt;iframe&gt;. The following keywords have special meanings: <br><br>
+
+			_self: Load the URL into the same browsing context as the current one. This is the default behavior. <br><br>
+			_blank: Load the URL into a new browsing context. This is usually a tab, but users can configure browsers to use new windows instead. <br><br>
+			_parent: Load the URL into the parent browsing context of the current one. If there is no parent, this behaves the same way as _self. <br><br>
+			_top: Load the URL into the top-level browsing context (that is, the "highest" browsing context that is an ancestor of the current one, and has no parent). If there is no parent, this behaves the same way as _self. <br><br>
+			Note: When using target, consider adding rel="noreferrer" to avoid exploitation of the window.opener API.
+			
+			Note: Linking to another page using target="_blank" will run the new page on the same process as your page. If the new page is executing expensive JS, your page's performance may suffer. To avoid this use rel="noopener".</p>
 		<hr>
 		<br>
-		<h3>Example: <a href="Example1.html">Check it 🠮</a></h3>
+		<h3>Example: <a href="Example2.html">Check it 🠮</a></h3>
 		<br>
 		<br>
 		<br>
